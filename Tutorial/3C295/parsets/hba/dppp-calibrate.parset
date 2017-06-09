@@ -1,0 +1,8 @@
+msin=L74759_SAP000_SB000_uv.MS.avg.dppp.flag
+msout=.
+msout.datacolumn=CORRECTED_DATA
+steps=[gaincal, applybeam]
+gaincal.sourcedb=3C295TWO.sourcedb
+gaincal.caltype=diagonal
+gaincal.usebeammodel=true
+gaincal.applysolution=true

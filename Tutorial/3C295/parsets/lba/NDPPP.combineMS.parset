@@ -1,0 +1,6 @@
+msin = L74762_SAP000_SB00[01]_uv.MS.dem.dppp
+msin.datacolumn = DATA
+msout = 3C295_LBA_BAND0.MS
+
+steps = []
+

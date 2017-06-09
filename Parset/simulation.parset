@@ -1,0 +1,8 @@
+Strategy.InputColumn = DATA
+Strategy.TimeRange = []
+Strategy.Baselines = *&
+Strategy.ChunkSize = 100
+Strategy.Steps = [predict]
+Step.predict.Operation = PREDICT
+Step.predict.Model.Sources = []
+Step.predict.Output.Column = MODEL_DATA

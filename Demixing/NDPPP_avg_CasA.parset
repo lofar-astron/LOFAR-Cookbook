@@ -1,0 +1,9 @@
+msin = L23145_SB030_CasA.MS
+msout = L23145_SB030_CasA_avg.MS
+
+steps = [avg]
+
+avg.type = averager
+avg.timestep = 10
+avg.freqstep = 60
+

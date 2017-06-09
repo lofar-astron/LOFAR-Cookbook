@@ -1,0 +1,10 @@
+msin=3C295_LBA_BAND0.MS
+msout=.
+msout.datacolumn=CORRECTED_DATA
+steps=[gaincal, applybeam]
+gaincal.sourcedb=3C295TWO.sourcedb
+gaincal.caltype=diagonal
+gaincal.nchan=0
+gaincal.solint=2
+gaincal.usebeammodel=true
+gaincal.applysolution=true

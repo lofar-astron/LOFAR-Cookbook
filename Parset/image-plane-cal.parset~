@@ -1,0 +1,33 @@
+Strategy.ChunkSize = 100 
+Strategy.Steps = [solve, subtract, correct]
+
+Step.solve.Operation = SOLVE 
+Step.solve.Model.Sources = [] 
+Step.solve.Model.DirectionalGain.Enable = T 
+Step.solve.Model.Cache.Enable = T
+
+Step.solve.Solve.Parms = ["DirectionalGain:0:0:*","DirectionalGain:1:1:*"]
+Step.solve.Solve.CellSize.Freq = 0
+Step.solve.Solve.CellSize.Time = 5
+Step.solve.Solve.CellChunkSize = 10
+Step.solve.Solve.Options.MaxIter = 250
+Step.solve.Solve.Options.EpsValue = 1e-9
+Step.solve.Solve.Options.EpsDerivative = 1e-9
+Step.solve.Solve.Options.ColFactor = 1e-9
+Step.solve.Solve.Options.LMFactor = 1.0
+Step.solve.Solve.Options.BalancedEqs = F
+Step.solve.Solve.Options.UseSVD = T
+
+
+Step.subtract.Operation = SUBTRACT
+Step.subtract.Model.Sources = [CygA.E, CygA.W, CasA]
+Step.subtract.Model.DirectionalGain.Enable = T
+
+
+Step.correct.Operation = CORRECT
+Step.correct.Model.Sources = [3C380]
+Step.correct.Model.DirectionalGain.Enable = T
+Step.correct.Output.Column = CORRECTED_DATA
+
+
+

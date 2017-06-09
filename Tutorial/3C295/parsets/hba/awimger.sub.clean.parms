@@ -1,0 +1,16 @@
+ms=3C295_BAND0.MS.sub 
+image=3C295_BAND0.sub.img
+data=CORRECTED_DATA
+weight=briggs
+robust=0
+npix=4096
+cellsize=5.5arcsec
+padding=1.2
+stokes=I
+operation=mfclark
+wmax=20000
+UVmin=0.08
+UVmax=18
+niter=1000
+threshold=30mJy
+

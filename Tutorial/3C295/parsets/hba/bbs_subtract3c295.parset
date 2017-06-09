@@ -1,0 +1,14 @@
+Strategy.ChunkSize = 500
+Strategy.InputColumn = DATA
+Strategy.TimeRange = []
+Strategy.Baselines = *&
+Strategy.Steps = [subtract]
+
+Step.subtract.Operation = SUBTRACT
+Step.subtract.Model.Sources = [3c295]
+Step.subtract.Model.Beam.Enable = T
+Step.subtract.Model.Beam.UseChannelFreq = T
+Step.subtract.Model.Gain.Enable = T
+Step.subtract.Model.Cache.Enable = T
+Step.subtract.Output.Column = 3C295_SUBTRACTED
+

@@ -1,0 +1,11 @@
+msin = 3C295_LBA_BAND0.MS
+msin.datacolumn=CORRECTED_DATA
+
+msout = 
+
+steps=[aoflagger]
+
+aoflagger.autocorr=F
+aoflagger.timewindow=0
+aoflagger.type=aoflagger
+

@@ -1,0 +1,4 @@
+ClusterName = Imaging
+
+# Directory is the same as the parent.
+SubClusters = [cep1.clusterdesc]

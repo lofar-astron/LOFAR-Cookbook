@@ -1,0 +1,7 @@
+# (Name, Type, Ra, Dec, I, Q, U, V, ReferenceFrequency='60e6', SpectralIndex='[]') = format
+# The above line defines the field order and is required.
+
+3C196A, POINT, 08:13:36.15, +48.13.04.7, 7.1, 0.0, 0.0, 0.0, 408e6, [-0.72]
+3C196B, POINT, 08:13:35.64, +48.12.59.6, 15.2, 0.0, 0.0, 0.0, 408e6, [-0.5]
+
+

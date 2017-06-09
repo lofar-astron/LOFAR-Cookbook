@@ -1,0 +1,8 @@
+# (Name, Type, Ra, Dec, I, ReferenceFrequency, SpectralIndex) = format
+
+CygA.E, POINT, 19:59:29.99, +40.43.57.53, 4421, 73.8e6, [-0.7]
+CygA.W, POINT, 19:59:23.23, +40.44.23.03, 2998, 73.8e6, [-0.7]
+CasA, POINT, 23:23:24.0, +58.48.54.0, 20000
+3C380, POINT, 18:29:31.8, +48.44.46.0, 1, 178.e6, [-0.7]
+
+

@@ -1,0 +1,6 @@
+msin = 3C295_BAND0.MS
+msin.datacolumn = 3C295_SUBTRACTED
+msout = 3C295_BAND0.MS.sub
+msout.datacolumn = DATA
+steps = []
+

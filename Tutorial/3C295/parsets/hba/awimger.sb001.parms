@@ -1,0 +1,11 @@
+ms=L74759_SAP000_SB001_uv.MS.avg.dppp
+image=L74759_SAP000_SB001.dirty.img
+data=CORRECTED_DATA
+gain=0.1
+cellsize=3arcsec
+npix=4096
+stokes=I
+weight=briggs
+robust=0
+operation=mfclark
+niter=0

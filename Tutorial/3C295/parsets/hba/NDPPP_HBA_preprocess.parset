@@ -1,0 +1,23 @@
+msin = L74759_SAP000_SB000_uv.MS
+msin.autoweight=TRUE
+msin.datacolumn=DATA
+
+msout = L74759_SAP000_SB000_uv.MS.avg.dppp
+msout.datacolumn=DATA
+
+steps=[preflagger0,preflagger1,aoflagger,averager]
+
+preflagger0.chan=[0,1,62,63]
+preflagger0.type=preflagger
+
+preflagger1.corrtype=auto
+preflagger1.type=preflagger
+
+aoflagger.autocorr=F
+aoflagger.timewindow=0
+aoflagger.type=aoflagger
+
+averager.freqstep=16     # compresses from 64 to 4 channels
+averager.timestep=4     # compresses 4 time-slots, i.e. 4s
+averager.type=averager
+

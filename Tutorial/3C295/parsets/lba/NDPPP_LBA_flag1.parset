@@ -1,0 +1,10 @@
+msin = L74762_SAP000_SB000_uv.MS.dem.dppp
+msin.datacolumn=DATA
+
+msout = 
+
+steps=[flag]
+
+flag.type=preflagger
+flag.baseline = [ [CS302LBA], [RS305LBA] ]
+

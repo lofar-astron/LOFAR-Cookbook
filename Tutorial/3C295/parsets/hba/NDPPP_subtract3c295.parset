@@ -1,0 +1,11 @@
+msin=3C295_BAND0.MS
+msout=3C295_BAND0.MS.sub
+steps=[subtract3c295, applycal, applybeam]
+subtract3c295.type=predict
+subtract3c295.operation=subtract
+subtract3c295.sourcedb=3C295TWO.sourcedb
+subtract3c295.sources=[3c295]
+subtract3c295.usebeammodel=true
+subtract3c295.applycal.parmdb=3C295_BAND0.MS/instrument
+applycal.parmdb=3C295_BAND0.MS/instrument
+

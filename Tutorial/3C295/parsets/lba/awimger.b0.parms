@@ -1,0 +1,12 @@
+ms=3C295_LBA_BAND0.MS
+image=3C295_LBA_BAND0.dirty.image
+data=CORRECTED_DATA
+padding=1.2
+cellsize=6arcsec
+npix=2048
+stokes=I
+weight=briggs
+robust=0.
+operation=mfclark
+niter=0
+

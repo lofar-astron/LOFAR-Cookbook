@@ -1,0 +1,15 @@
+ClusterName = sub1
+
+# Storage nodes.
+Storage.Nodes = [ lse001..3 ]
+Storage.LocalDisks = [ /data1..4 ]
+
+# Compute nodes.
+Compute.Nodes = [ lce001..9 ]
+Compute.RemoteDisks = [ /net/sub1/lse001..3/data1..4 ]
+Compute.RemoteFileSys = [ /lse001..3:/data1..4 ]
+Compute.LocalDisks = [ /data ]
+
+# Head nodes.
+Head.Nodes = [ lfe001..2 ]
+Head.LocalDisks = [ /data ]

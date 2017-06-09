@@ -1,0 +1,6 @@
+msin = L74759_SAP000_SB000_uv.MS.avg.dppp
+msin.baseline = !CS302HBA0
+msin.datacolumn = DATA
+msout = L74759_SAP000_SB000_uv.MS.avg.dppp.flag
+
+steps=[]

@@ -1,0 +1,7 @@
+msin = L74759_SAP000_SB000_uv.MS.avg.dppp.flag
+msin.datacolumn = DATA
+msout = 
+steps = [flag]
+flag.type=preflagger
+flag.baseline= CS302HBA1* ; RS508HBA*&RS509HBA* ; RS208HBA*&RS509HBA*
+

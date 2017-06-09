@@ -1,0 +1,30 @@
+msin = ~/SB0.MS
+msin.startchan = 2 
+msin.nchan = 60 
+msin.datacolumn = DATA 
+
+msin.autoweight = true
+msout = "SB0_DPPP.MS" 
+
+steps = [preflag,flag1,count,avg1,flag2,avg2,count]
+
+preflag.type=preflagger
+preflag.corrtype=auto
+
+flag1.type=aoflagger
+flag1.memoryperc=50
+
+avg1.type = average
+avg1.freqstep = 60 
+avg1.timestep = 1 
+
+flag2.type=madflagger
+flag2.threshold=3
+flag2.timewindow=51
+
+avg2.type = average
+avg2.timestep = 5 
+
+
+
+

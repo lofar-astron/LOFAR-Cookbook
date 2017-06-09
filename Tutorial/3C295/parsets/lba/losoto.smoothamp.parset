@@ -1,0 +1,16 @@
+LoSoTo.Steps = [smooth]
+LoSoTo.Solset = [sol000]
+LoSoTo.Soltab = []
+LoSoTo.SolType = []
+LoSoTo.ant = []
+LoSoTo.pol = [XX,YY]
+LoSoTo.dir = []
+
+LoSoTo.Steps.clip.Operation = CLIP
+LoSoTo.Steps.clip.Axes = [time]
+LoSoTo.Steps.clip.ClipLevel = 5
+
+LoSoTo.Steps.smooth.Operation = SMOOTH
+LoSoTo.Steps.smooth.Axes = [time]
+LoSoTo.Steps.smooth.FWHM = [5]
+

@@ -1,0 +1,15 @@
+ms=L74759_SAP000_SB000_uv.MS.avg.dppp
+image=L74759_SAP000_SB000.img
+data=CORRECTED_DATA
+weight=briggs
+robust=0
+npix=4096
+cellsize=5.5arcsec
+padding=1.2
+stokes=I
+operation=mfclark
+wmax=20000
+UVmin=0.08
+UVmax=18
+niter=1000
+

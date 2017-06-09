@@ -1,0 +1,11 @@
+msin = L23145_SB030_uv.MS
+msin.autoweight = True
+msin.startchan = 2
+msin.nchan = 60
+msout = L23145_SB030_HydA.MS
+
+steps = [preflag1]
+
+preflag1.type=preflagger
+preflag1.corrtype=auto
+

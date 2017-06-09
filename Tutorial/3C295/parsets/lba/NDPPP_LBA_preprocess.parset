@@ -1,0 +1,36 @@
+msin = L74762_SAP000_SB000_uv.MS
+msin.autoweight=TRUE
+msin.datacolumn=DATA
+
+msout = L74762_SAP000_SB000_uv.MS.dem.dppp
+msout.datacolumn=DATA
+
+steps=[preflagger0,preflagger1,aoflagger,demixer]
+
+preflagger0.chan=[0,1,62,63]
+preflagger0.type=preflagger
+
+preflagger1.corrtype=auto
+preflagger1.type=preflagger
+
+aoflagger.strategy=LBAdefault
+aoflagger.autocorr=F
+aoflagger.count.save=F
+aoflagger.keepstatistics=T
+aoflagger.memorymax=0
+aoflagger.memoryperc=0
+aoflagger.overlapmax=0
+aoflagger.overlapperc=-1
+aoflagger.pedantic=F
+aoflagger.pulsar=F
+aoflagger.timewindow=0
+aoflagger.type=aoflagger
+
+demixer.freqstep=16     # compresses to 4 channels
+demixer.timestep=4     # compresses 4 time-slots, i.e. 4s
+demixer.demixfreqstep=64     # compresses to 1 channel
+demixer.demixtimestep=12     # compresses 12 time-slots, i.e. 12s
+demixer.skymodel=Ateam_LBA_CC.sky
+demixer.subtractsources=[CasA, CygA]  # which sources to demix
+demixer.type=demixer
+

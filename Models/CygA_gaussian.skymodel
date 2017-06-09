@@ -1,0 +1,6 @@
+# (Name, Type, Ra, Dec, I, Q, U, V, ReferenceFrequency='135e6',SpectralIndex='[]', MajorAxis, MinorAxis, Orientation) = format
+# The above line defines the field order and is required.
+# NB. It has to be a single line.
+
+CygA.E, GAUSSIAN, 19:59:29.99, +40.43.57.53, 4421, 0.0, 0.0, 0.0,73.8e6, [-0.7], 41.3, 40.6, 30.8
+CygA.W, GAUSSIAN, 19:59:23.23, +40.44.23.03, 2998, 0.0, 0.0, 0.0,73.8e6, [-0.7], 57.6, 40.6, 31.4

@@ -1,0 +1,13 @@
+Strategy.ChunkSize = 500
+Strategy.InputColumn = DATA
+Strategy.TimeRange = []
+Strategy.Baselines = *&
+Strategy.Steps = [correct]
+
+Step.correct.Operation = CORRECT
+Step.correct.Model.Sources = []
+Step.correct.Model.Gain.Enable = T
+Step.correct.Model.Beam.Enable = T
+Step.correct.Model.Beam.UseChannelFreq = T
+Step.correct.Output.Column = CORRECTED_DATA
+

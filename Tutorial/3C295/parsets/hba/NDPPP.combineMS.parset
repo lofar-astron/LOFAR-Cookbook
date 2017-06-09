@@ -1,0 +1,6 @@
+msin = L74759_SAP000_SB*_uv.MS.avg.dppp.flag
+msin.datacolumn = DATA
+msout = 3C295_BAND0.MS
+
+steps = []
+
